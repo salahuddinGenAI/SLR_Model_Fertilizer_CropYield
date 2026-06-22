@@ -13,6 +13,22 @@ This project explores the relationship between the amount of fertilizer applied 
 
 ##  How to Run
 
-1. Clone this repository:
+**1. Clone this repository:**
    ```bash
    git clone [https://github.com/YOUR_USERNAME/SLR_Model_Fertilizer_vs_CropYield.git](https://github.com/YOUR_USERNAME/SLR_Model_Fertilizer_vs_CropYield.git)
+
+ 2. Install dependencies
+
+     pip install -r requirements.txt
+
+ 3. Open and run the notebook in Google Colab or Jupiter Notebook.
+      notebooks/Simple_Linear_Regression.ipynb.
+
+# 4. Results
+
+*Model Equation:* 
+Yield = 0.05018 * FertilizerKg + 0.8000
+
+*Prediction Example:*
+For 110 kg of fertilizer, both the Scikit-Learn .predict() function and the manual mathematical formula yield an expected output of 6.32 Tons.
+
